@@ -87,7 +87,7 @@ Its strings can use either single or double quotation marks, and you can have qu
 >>> print("Name: %s\
 Number: %s\
 String: %s" % (myclass.name, 3, 3 * "-"))
-Name: Stavros
+Name: hcvazquez
 Number: 3
 String: ---
 
@@ -99,11 +99,11 @@ string."""
 >>> print("This %(verb)s a %(noun)s." % {"noun": "test", "verb": "is"})
 This is a test.
 
->>> name = "Stavros"
+>>> name = "hcvazquez"
 >>> "Hello, {}!".format(name)
-Hello, Stavros!
+Hello, hcvazquez!
 >>> print(f"Hello, {name}!")
-Hello, Stavros!
+Hello, hcvazquez!
 ```
 
 ## Flow control statements
